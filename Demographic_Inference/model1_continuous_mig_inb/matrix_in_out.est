@@ -1,0 +1,18 @@
+// Priors and rules file
+// *********************
+
+[PARAMETERS]
+//#isInt? #name   #dist.#min  #max 
+//all Ns are in number of haploid individuals
+1  NPaxil    unif        100000  5000000   output
+1  NPexse    unif        1000    500000    output
+1  Tdiv      unif        1000    500000    output
+0  mutrate   logunif     1e-8    1e-7      output
+0  MIG       logunif     1e-5    1e-2      output
+0  inbred    uniform     0.1     0.9       output
+
+[RULES]
+
+[COMPLEX PARAMETERS]
+
+
